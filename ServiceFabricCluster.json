@@ -287,13 +287,13 @@
       "name": "[concat(variables('lbIPName'),'-',variables('vmNodeType0Name'))]",
       "location": "[variables('location')]",
       "sku": {
-        "name": "Standard"
+        "name": "Basic"
       },
       "properties": {
         "dnsSettings": {
           "domainNameLabel": "[variables('dnsName')]"
         },
-        "publicIPAllocationMethod": "Static"
+        "publicIPAllocationMethod": "Dynamic"
       },
       "tags": {
         "resourceType": "Service Fabric",
