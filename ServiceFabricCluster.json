@@ -305,9 +305,6 @@
       "dependsOn": [
         "[concat('Microsoft.Network/publicIPAddresses/',concat(variables('lbIPName'),'-',variables('vmNodeType0Name')))]"
       ],
-      "sku": {
-        "name": "Standard"
-      },
       "properties": {
         "frontendIPConfigurations": [
           {
