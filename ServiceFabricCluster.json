@@ -293,7 +293,7 @@
         "dnsSettings": {
           "domainNameLabel": "[variables('dnsName')]"
         },
-        "publicIPAllocationMethod": "Dynamic"
+        "publicIPAllocationMethod": "Static"
       },
       "tags": {
         "resourceType": "Service Fabric",
