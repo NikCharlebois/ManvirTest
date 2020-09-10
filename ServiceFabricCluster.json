@@ -69,7 +69,7 @@
     "lbNatPoolID1": "[concat(variables('lbID0'), '/inboundNatPools/SignalingNatPool')]",
     "lbNatPoolID2": "[concat(variables('lbID0'), '/inboundNatPools/MediaNatPool')]",
     "vmName": "vm",
-    "vmNodeType0Name": "[toLower(concat(substring(uniqueString(variables('clusterName')), 0, 9), variables('vmName')))]",
+    "vmNodeType0Name": "[toLower(concat(substring(uniqueString(variables('clusterName')), 0, 7), variables('vmName')))]",
     "vmNodeType0Size": "Standard_D2s_v3",
     "storageAccountType": "Standard_LRS",
     "supportLogStorageAccountType": "Standard_LRS",
