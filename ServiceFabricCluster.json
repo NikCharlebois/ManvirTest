@@ -286,9 +286,6 @@
       "type": "Microsoft.Network/publicIPAddresses",
       "name": "[concat(variables('lbIPName'),'-',variables('vmNodeType0Name'))]",
       "location": "[variables('location')]",
-      "sku": {
-        "name": "Basic"
-      },
       "properties": {
         "dnsSettings": {
           "domainNameLabel": "[variables('dnsName')]"
