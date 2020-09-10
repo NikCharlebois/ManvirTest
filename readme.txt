@@ -1,4 +1,3 @@
-Access to the cluster is secured by a certificate stored in Azure Key Vault. 
+<p><a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FNikCharlebois%2FManvirTest%2Fmaster%2FServiceFabricCluster.json"><img src="http://azuredeploy.net/deploybutton.png" alt="Deploy Environment in Azure" /></a>
+  
 
-The certificate must exist before the template is deployed. For more information about creating the certificate please see: 
-https://azure.microsoft.com/documentation/articles/service-fabric-cluster-security/
